@@ -4,7 +4,7 @@ const makeChange = (c) => {
 		q:Math.floor(c/25),
 		d:Math.floor((c%25)/10),
 		n:Math.floor((c%25%10)/5),
-		p:c%5;
+		p:Math.floor((c%25%10%5));
 	};
 	
 	
